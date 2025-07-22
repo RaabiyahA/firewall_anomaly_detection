@@ -68,9 +68,9 @@ ___
 
 # Accuracy of Approach
 
-This is an unsupervised system, so accuracy is measured in:
+This is an unsupervised system, so accuracy is measured using proxy indicators:
 
-Anomaly rate (≈5%)
-Threat classification rules
-Visual separation in scatter plots
-Further evaluation possible if ground truth labels become available.
+- Anomaly rate: ~5% of sessions flagged as anomalies
+- Visual separation: Anomalies form clear outliers in scatter plots (e.g., Bytes vs Elapsed Time)
+- Rule-based threat tags: Use logic like destination port and packet volume to categorize threats
+- Further evaluation: Possible with labeled data to compute precision, recall, F1-score
