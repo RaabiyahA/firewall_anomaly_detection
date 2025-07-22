@@ -15,7 +15,7 @@ Conducted with Python (pandas, seaborn, matplotlib) to understand:
 - Session durations and byte distributions
 - Unusual traffic patterns
 
-#### 2. 🤖 ML-based Anomaly Detection
+#### 2. ML-based Anomaly Detection
 Used `IsolationForest` to flag anomalies without requiring labeled data.
 
 **Features used**:
@@ -41,7 +41,8 @@ Includes:
 
 ## 1. Clone Repo
 
-```bash
+bash
+
 git clone https://github.com/RaabiyahA/firewall_anomaly_detection.git
 cd firewall_anomaly_detection
 
