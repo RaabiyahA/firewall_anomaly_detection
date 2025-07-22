@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Logs, outputs
+*.log
+*.csv
+
+# Streamlit cache
+.streamlit/
+
+# Optional: exclude full data if it's large
+# data/*.csv
